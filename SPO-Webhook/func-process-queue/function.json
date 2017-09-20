@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "webhook-queue",
+      "connection": "lme-sb-webhook_RootManageSharedAccessKey_SERVICEBUS",
+      "accessRights": "Manage"
+    }
+  ],
+  "disabled": false
+}
