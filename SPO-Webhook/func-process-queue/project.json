@@ -1,0 +1,13 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "SharePointPnPCoreOnline": "2.16.1706",
+        "Newtonsoft.Json": "10.0.3",
+        "RestSharp": "105.2.3",
+        "WindowsAzure.ServiceBus": "4.1.2",
+        "Microsoft.IdentityModel.Clients.ActiveDirectory": "2.18.0"
+      }
+    }
+  }
+}
